@@ -1,0 +1,54 @@
+.about-Formation {
+    position: relative;
+
+    @media (max-width: 768px) {
+        text-align: start;
+    }
+
+    h2 {
+        border-bottom: 1px solid #000;
+
+    }
+
+    i {
+        font-size: 3em;
+        color: #04245c;
+    }
+
+    span{
+        font-weight: 500;
+    }
+
+    .Formation-each {
+        padding-left: 38px;
+        padding-top: 17px;
+        border-left: 1px solid #04245c;
+        margin-left: 26px;
+        margin-top: 8px;
+    }
+
+    h3 {
+        font-size: 1.2em;
+        position: relative;
+
+        em {
+            font-size: 15px;
+            color: #04245c;
+            font-weight: normal;
+        }
+
+        &::before {
+            content: " ";
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 1px solid #04245c;
+            border-radius: 50%;
+            background-color: #fff;
+            position: absolute;
+            left: calc(-2em - 11px);
+            top: 5px;
+
+        }
+    }
+}

@@ -1,0 +1,72 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    background-color: rgba(0 0 0 / 88%);
+    padding: 15px 0;
+    width: 100%;
+
+    @media (max-width: 768px) {
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.978);
+        
+        &::after {
+            font-family:"FontAwesome";
+            content: "\f0c9";
+            font-size: 25px;
+            
+        }
+    }
+}
+
+h1.h1 {
+    color: #04245c;
+    font-family: "Edu SA Beginner", cursive;
+    font-weight: 600;
+    font-size: 45px;
+    cursor: pointer;
+    
+    span.span {
+        color: #fff;
+        font-size: 30px;
+        
+    }
+}
+
+ul.nav {
+    display: flex;
+    gap: 30px;
+
+    @media screen and (max-width: 768px) {
+        display: none;        
+    }
+
+    
+
+
+    .active {
+        font-weight: bold;
+        padding: 5px 10px;
+        border-bottom: 2px solid lighten($color: #04245c, $amount: 9);
+        color: lighten($color: #04245c, $amount: 9);
+    }
+
+    a {
+        padding: 5px 10px;
+        color: #fff;
+        font-size: 1em;
+        transition: all 0.2s ease-in-out;
+        font-weight: bold;
+        border-radius: 5px;
+
+
+        &:hover {
+            font-weight: bold;
+            padding: 5px 10px;
+            border-bottom: 2px solid lighten($color: #04245c, $amount: 9);
+            color: lighten($color: #04245c, $amount: 9);
+        }
+
+    }
+}
