@@ -5,8 +5,10 @@ const Biographie = () => {
         <div className="biographie">
         <h2>En recherche d’une nouvelle opportunité…</h2>
         <p>
-          je suis développeur fullstack, spécialisé dans le frontend. passioné
-          par les nouvelles technologies et leurs facultés à améliorer la
+        <mark>Bonjour ici, Mr Kevin puis-je parler à la personne chargé du recrutement c.combel-wallace@lefebvre-dalloz.fr</mark>
+
+          je suis développeur fullstack, spécialisé dans le frontend, j'ai une passion
+          pour les nouvelles technologies et leurs facultés à améliorer la
           productivité des entreprises.
         </p>
         <p>

@@ -3,7 +3,7 @@ import Loader from "./components/Loader.Building";
 import Routes from "./routes";
 
 function App() {
-  const [pageLoader, setPageLoader] = React.useState(true);
+  const [pageLoader, setPageLoader] = React.useState(false);
 
   const action = "active";
   if (action === "desactive") setPageLoader(false);
