@@ -4,6 +4,7 @@ import Identyti from "../layout/about/Identyti";
 import Formation from "../layout/about/Formation";
 import Biographie from "../layout/about/Biographie";
 import Competences from "../layout/about/Competences";
+import Footer from "../layout/Footer";
 
 const About = () => {
   return (
@@ -26,6 +27,8 @@ const About = () => {
 
         <Formation />
       </div>
+
+      <Footer />
     </div>
   );
 };

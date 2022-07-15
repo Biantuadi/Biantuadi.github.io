@@ -1,0 +1,98 @@
+footer {
+    background-color: rgb(2 19 52 / 97%);
+    padding: 20px 0;
+    color: #fff;
+
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    overflow: hidden;
+
+    @media (max-width: 768px) {
+            flex-direction: column;
+            align-items: center;
+    }
+
+    img{
+        height: 90px;
+    width: 90px;
+
+    @media (max-width: 768px) {
+        margin-top: 30px;
+    }
+    }
+
+
+
+    ul.reseaux-sociaux {
+        position: relative;
+        display: flex;
+        transform-style: preserve-3d;
+        transform: rotate(340deg) skew(25deg);
+        padding: 20px 0;
+
+        @media screen and (max-width: 768px) {
+            transform: rotate(0deg) skew(0deg);
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        li {
+            position: relative;
+            list-style: none;
+            width: 35px;
+            height: 35px;
+            margin: 0 10px;
+        }
+
+        li span {
+            color: darken($color: #fff, $amount: 5);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex !important;
+            justify-content: center;
+            align-items: center;
+            font-size: 15px !important;
+            transition: .2s;
+            border-radius: 50%;
+            box-shadow: -1px 1px 1px darken($color: #fff, $amount: 5);
+        }
+
+        li:hover span {
+            z-index: 10;
+            color: #fff;
+            transition: .5s;
+
+        }
+
+
+
+        li:nth-child(1):hover span {
+            background: darken($color: #3b5999, $amount: 8);
+
+        }
+
+        li:nth-child(2):hover span {
+            background: darken($color: #e4405f, $amount: 9);
+
+        }
+
+        li:nth-child(3):hover span {
+            background: darken($color: #007785, $amount: 8);
+
+        }
+
+        li:nth-child(4):hover span {
+            background: darken($color: #00a1ff, $amount: 11);
+
+        }
+
+
+
+
+    }
+}

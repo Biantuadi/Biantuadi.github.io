@@ -33,38 +33,34 @@ const SocialMedia = () => {
         </>
       ) : (
         <>
-          {/* <li>
-            <a href="#">
-              <span></span>
-              <span></span>
+          <li>
+            <a href="https://www.facebook.com/beni.biantuadi.9" target="_blank" rel="noopener noreferrer">
               <span></span>
               <span></span>
               <span className="fa-brands fa-facebook-f"></span>
             </a>
           </li>
           <li>
-            <a href="#">
-              <span></span>
-              <span></span>
+            <a href="https://www.instagram.com/accounts/login/?next=/kevin_b.biantuadi/" target="_blank" rel="noopener noreferrer">
               <span></span>
               <span></span>
               <span className="fa-brands fa-instagram"></span>
             </a>
           </li>
           <li>
-            <a href="" className="linkedin">
+            <a href="https://www.linkedin.com/in/beni-biantuadi-022585201/" className="linkedin" target="_blank" rel="noopener noreferrer">
               <span></span>
               <span></span>
               <span className="fa-brands fa-linkedin-in"></span>
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="https://twitter.com/KBBiantuadi" target="_blank" rel="noopener noreferrer">
               <span></span>
               <span></span>
               <span class="fa-brands fa-twitter"></span>
             </a>
-          </li> */}
+          </li>
         </>
       )}
     </ul>

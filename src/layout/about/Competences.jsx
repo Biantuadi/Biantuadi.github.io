@@ -1,4 +1,5 @@
 import React from "react";
+import LogoProgramation from "../../components/about/LogoProgramation";
 
 const Competences = () => {
   return (
@@ -12,7 +13,7 @@ const Competences = () => {
       </p>
 
       <div className="langes-programation">
-        <div className="programation" >
+        <div className="programation">
           <ul>
             <li>React, JavaScript, NodeJS </li>
             <div className="progress">
@@ -65,6 +66,10 @@ const Competences = () => {
             </li>
           </ul>
         </div>
+
+        <ul className="logo-orogramation">
+          <LogoProgramation />
+        </ul>
       </div>
     </div>
   );

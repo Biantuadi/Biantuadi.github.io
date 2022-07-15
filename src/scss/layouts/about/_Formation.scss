@@ -15,7 +15,7 @@
         color: #04245c;
     }
 
-    span{
+    span {
         font-weight: 500;
     }
 
@@ -25,11 +25,62 @@
         border-left: 1px solid #04245c;
         margin-left: 26px;
         margin-top: 8px;
+
+        .title-img {
+            position: relative;
+            display: flex;
+            align-items: center;
+        }
+
+        img.img {
+            width: 108px;
+            height: 104px;
+            z-index: -1;
+
+            @media (max-width: 768px) {
+                display: none;
+            }
+        }
+
+
+        img.Etna {
+            margin-left: 7px;
+        }
+        
+        img.Openclassrooms {
+            width: 33px;
+            height: 30px;
+            margin-left: 15px;
+
+        }
+
+        img.upc {
+            width: 50px;
+            height: 35px;
+            margin-left: 5px;
+        }
+
+        img.ufc {
+            width: 100px;
+            height: 127px;
+            margin-left: -8px;
+        }
+
+        img.tbg {
+            width: 70px;
+            height: 65px;
+            margin-left: 7px;
+        }
     }
 
     h3 {
         font-size: 1.2em;
         position: relative;
+        color: #000;
+
+        &:hover {
+            color: #04245c;
+        }
 
         em {
             font-size: 15px;
@@ -51,4 +102,49 @@
 
         }
     }
+
+
+
+    .Etna {
+        p {
+            margin-top: -30px;
+
+            @media (max-width: 768px) {
+                margin-top: 8px;
+            }
+        }
+    }
+
+    .openclassroom {
+        p {
+            margin-top: 10px;
+        }
+    }
+
+    .upc {
+        p {
+            margin-bottom: -10px;
+            margin-top: 8px;
+
+            @media (max-width: 768px) {
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    .ufc {
+        p {
+            margin-top: -35px;
+
+            @media (max-width: 768px) {
+                margin-top: 10px;
+            }
+        }
+    }
+
+
+
+
+
+
 }

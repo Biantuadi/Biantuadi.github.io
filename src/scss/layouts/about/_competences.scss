@@ -1,20 +1,20 @@
 .Competences-Container {
     display: flex;
     flex-direction: column;
-    margin-bottom: 60px;
+    margin-bottom: 15px;
 
     @media screen and (max-width: 768px) {
         margin-bottom: 10px;
     }
 
-    h2{
+    h2 {
         border-bottom: 1px solid #000;
     }
 
     .langes-programation {
         display: flex;
-        gap: 200px;
         align-items: center;
+        justify-content: space-between;
 
         @media screen and (max-width: 768px) {
             flex-direction: column;
@@ -71,6 +71,25 @@
     li {
         font-weight: 300;
     }
+
+
+    ul.logo-orogramation {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        width: 260px;
+        height: 260px;
+
+        @media screen and (max-width: 768px) {
+            display: none;
+        }
+
+        img {
+            width: 50px;
+            height: 50px;
+        }
+    }
+
 
 
     .progress {

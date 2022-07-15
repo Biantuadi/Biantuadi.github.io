@@ -1,4 +1,9 @@
 import React from "react";
+import Etna from "../../assets/logosEcoles/etna.png";
+import Openclassrooms from "../../assets/logosEcoles/Logo_OpenClassrooms.png";
+import upc from "../../assets/logosEcoles/upc.png";
+import tbg from "../../assets/logosEcoles/tbg.jfif";
+import ufc from "../../assets/logosEcoles/ufc.jfif";
 
 const Formation = () => {
   return (
@@ -7,11 +12,16 @@ const Formation = () => {
       <i class="fa-solid fa-graduation-cap"></i>
 
       <div className="Formation-each">
-        <div className="preparateur">
-          <h3>
-            Responsable de projet web et mobile | <span>ETNA Bac+3</span>{" "}
-            <em>/ Octobre 2022</em>
-          </h3>
+        <div className="Etna">
+          <div className="title-img">
+            <a href="http://Etna.io" target="_blank" rel="noopener noreferrer">
+              <h3>
+                Responsable de projet web et mobile | <span>ETNA Bac+3</span>{" "}
+                <em>/ Octobre 2022</em>
+              </h3>
+            </a>
+            <img src={Etna} alt="etna" className="Etna img" />
+          </div>
           <p>
             Développer des compétences en C permettant de créer un jeu,
             Appréhender les statistiques par l’algorithmique, Réaliser un POC
@@ -23,11 +33,24 @@ const Formation = () => {
           </p>
         </div>
 
-        <div className="integration">
-          <h3>
-            développeur Web | <span>Openclassrooms Bac+2</span>{" "}
-            <em>/ Novembre 2021 - à Juillet 2022</em>
-          </h3>
+        <div className="openclassroom">
+          <div className="title-img">
+            <a
+              href="https://openclassrooms.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h3>
+                développeur Web | <span>Openclassrooms Bac+2</span>{" "}
+                <em>/ Novembre 2021 - à Juillet 2022</em>
+              </h3>
+            </a>
+            <img
+              src={Openclassrooms}
+              alt="openclassrooms"
+              className="Openclassrooms img"
+            />
+          </div>
           <p>
             • découper, assembler et intégrer tous les éléments d’une maquette
             graphique en HTML5 et CSS ; <br />
@@ -49,11 +72,20 @@ const Formation = () => {
           </p>
         </div>
 
-        <div className="agent-commercial">
-          <h3>
-            Economie | <span>UPC Licence 2</span>{" "}
-            <em>/ sept 2019 - à octobre 2021</em>
-          </h3>
+        <div className="upc">
+          <div className="title-img">
+            <a
+              href="https://upc.ac.cd/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h3>
+                Economie | <span>UPC Licence 2</span>{" "}
+                <em>/ sept 2019 - à octobre 2021</em>
+              </h3>
+            </a>
+            <img src={upc} alt="upc" className="upc img" />
+          </div>
           <p>
             Connaître les bases de l’économie, Connaître les bases de la gestion
             de la production, Connaître les bases de la gestion de la
@@ -65,11 +97,20 @@ const Formation = () => {
           </p>
         </div>
 
-        <div className="agent-commercial">
-          <h3>
-            Anglais avancées | <span>UFC B1</span>{" "}
-            <em>/ juillet 2020 - à octobre 2021</em>
-          </h3>
+        <div className="ufc">
+          <div className="title-img">
+            <a
+              href="https://ufc.education/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h3>
+                Anglais avancées | <span>UFC B1</span>{" "}
+                <em>/ juillet 2020 - à octobre 2021</em>
+              </h3>
+            </a>
+            <img src={ufc} alt="ufc" className="ufc img" />
+          </div>
           <p>
             S'exprimer de façon claire et détaillée sur une grande gamme de
             sujets, émettre un avis sur un sujet d’actualité et exposer les
@@ -78,11 +119,22 @@ const Formation = () => {
         </div>
 
         <div className="tbg">
-          <h3>
-            {" "}
-            Réseaux sociaux | <span>TBG Mastering</span>
-            <em> / sept 2019</em>{" "}
-          </h3>
+          <div className="title-img">
+            <a
+              href="https://www.thebestgroup.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h3>
+                {" "}
+                Réseaux sociaux | <span>TBG Mastering</span>
+                <em> / sept 2019</em>{" "}
+              </h3>
+            </a>
+
+            <img src={tbg} alt="tbg" className="tbg img" />
+          </div>
+
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto
             quas, vero iure placeat necessitatibus ad animi dolore excepturi aut
@@ -94,9 +146,16 @@ const Formation = () => {
         </div>
 
         <div className="bac">
+          <a
+            href="https://www.facebook.com/pages/category/Middle-School/Complexe-scolaire-mafuta-311307459744808/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+
           <h3>
             Bac Mathématiques | <span>CS MAFUTA</span> <em>/ juillet 2019</em>{" "}
           </h3>
+          </a>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore
             mollitia quo pariatur ad quod, ipsum distinctio error quos culpa
