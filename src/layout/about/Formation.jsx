@@ -9,7 +9,7 @@ const Formation = () => {
   return (
     <div className="about-Formation" id="parcours">
       <h2>Formations</h2>
-      <i class="fa-solid fa-graduation-cap"></i>
+      <i className="fa-solid fa-graduation-cap"></i>
 
       <div className="Formation-each">
         <div className="Etna">

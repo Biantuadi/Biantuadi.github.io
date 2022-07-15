@@ -58,7 +58,7 @@ const SocialMedia = () => {
             <a href="https://twitter.com/KBBiantuadi" target="_blank" rel="noopener noreferrer">
               <span></span>
               <span></span>
-              <span class="fa-brands fa-twitter"></span>
+              <span className="fa-brands fa-twitter"></span>
             </a>
           </li>
         </>

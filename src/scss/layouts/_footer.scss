@@ -7,10 +7,18 @@ footer {
     justify-content: space-around;
     height: 100%;
     overflow: hidden;
+    
 
     @media (max-width: 768px) {
             flex-direction: column;
             align-items: center;
+    }
+
+    .lien-externe{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        
     }
 
     img{
