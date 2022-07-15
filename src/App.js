@@ -1,14 +1,8 @@
 import React from "react";
-import Loader from "./components/Loader.Building";
 import Routes from "./routes";
 
 function App() {
-  const [pageLoader, setPageLoader] = React.useState(false);
-
-  const action = "active";
-  if (action === "desactive") setPageLoader(false);
-
-  return <>{pageLoader ? <Loader /> : <Routes />}</>;
+  return <Routes />;
 }
 
 export default App;
