@@ -21,7 +21,7 @@ const Biographie = () => {
           Je suis actuellement diplomé d'un bac+2 en developpement web chez
           openclassrooms. et j'ai été admis en troisième année dans la
           formation Responsable de projet web et mobile chez ETNA (Ecole des
-          technologies numériques avancées). je suis désormais à la recherche
+          technologies numériques avancées). Actuellement je suis à la recherche
           d’un contrat d’apprentissage pour la rentrée 2022.
         </p>
         <p>

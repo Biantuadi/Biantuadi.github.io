@@ -94,6 +94,7 @@
         position: relative;
         overflow: hidden;
         gap: 120px;
+
         @media screen and (max-width: 768px) {
             gap: 50px;
             flex-direction: column-reverse;
@@ -107,24 +108,30 @@
         align-items: center;
     }
 
+    .video {
+        transform: rotate(3deg) skew(-20deg);
+        font-family: "Dancing Script", cursive;
+        font-size: 1.3em;
+    }
+
 
     ul.reseaux-sociaux {
         position: relative;
         display: flex;
         transform-style: preserve-3d;
         transform: rotate(-25deg) skew(25deg);
-    
+
         @media screen and (max-width: 768px) {
             transform: rotate(0deg) skew(0deg);
         }
-    
+
         li {
             position: relative;
             list-style: none;
             width: 40px;
             height: 40px;
         }
-    
+
         li span {
             position: absolute;
             top: 0;
@@ -136,65 +143,64 @@
             align-items: center;
             background: darken($color: rgb(150 150 150), $amount: 2);
             font-size: 15px !important;
-            transition: .2s;    
+            transition: .2s;
         }
-    
+
         li:hover span {
             z-index: 10;
             color: #fff;
             box-shadow: -1px 1px 1px rgba(0, 0, 0, .5);
             transition: .5s;
         }
-    
-    
+
+
         li:hover span:nth-child(3) {
             transform: translate(10px, -20px);
             opacity: .6;
-    
+
             @media screen and (max-width: 768px) {
                 transform: translate(0px, 0px);
             }
         }
-    
+
         li:hover span:nth-child(2) {
             transform: translate(0px, -10px);
             opacity: .4;
-    
+
             @media screen and (max-width: 768px) {
                 transform: translate(0px, 0px);
             }
         }
-    
+
         li:hover span:nth-child(1) {
             transform: translate(-10px, 0);
             opacity: .2;
-    
+
             @media screen and (max-width: 768px) {
                 transform: translate(0px, 0px);
             }
         }
-    
-        
+
+
         .fa-envelope,
         .envelope:nth-child(1):hover span {
             background: #04245cba;
-    
+
         }
-    
+
         li.envelope {
             margin-right: 35px;
-    
-    
+
+
         }
-    
+
         .fa-github,
         .github:nth-child(1):hover span {
             background: rgb(0 0 0 / 57%);
         }
-    
+
         a {
             color: #fff;
         }
     }
 }
-

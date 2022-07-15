@@ -20,7 +20,7 @@ const AbsoluteLigne = () => {
               rel="noopener noreferrer"
             >
               {" "}
-              Voir le site
+              Voir le repo
             </a>
           </div>
         </div>
@@ -33,8 +33,9 @@ const AbsoluteLigne = () => {
           <div className="text">
             <h3>Piquante</h3>
             <p>
-              Groupomania est un réseau social qui permet de partager des
-              informations et des événements entre les membres du groupe.
+              Piiquante se dédie à la création de sauces épicées dont les
+              recettes sont gardées secrètes. Pour tirer parti de son succès et
+              générer davantage de buzz.
             </p>
             <a
               href="https://groupomania.herokuapp.com/"
@@ -42,21 +43,21 @@ const AbsoluteLigne = () => {
               rel="noopener noreferrer"
             >
               {" "}
-              Voir le site
+              Voir le repo
             </a>
           </div>
         </div>
       </div>
 
       <div className="boule3 boule">
-      <i className="fa-brands fa-js"></i>
+        <i className="fa-brands fa-js"></i>
 
         <div className="bloc3 bloc">
           <div className="text">
-            <h3>Horinoco</h3>
+            <h3>Kanap</h3>
             <p>
-              Groupomania est un réseau social qui permet de partager des
-              informations et des événements entre les membres du groupe.
+              Kanap une marque de canapés qui vend ses produits depuis sa
+              boutique exclusivement.
             </p>
             <a
               href="https://groupomania.herokuapp.com/"
@@ -64,14 +65,14 @@ const AbsoluteLigne = () => {
               rel="noopener noreferrer"
             >
               {" "}
-              Voir le site
+              Voir le repo
             </a>
           </div>
         </div>
       </div>
 
       <div className="boule4 boule">
-      <i className="fa-solid fa-magnifying-glass"></i>
+        <i className="fa-solid fa-magnifying-glass"></i>
 
         <div className="bloc4 bloc">
           <div className="text">
@@ -86,7 +87,7 @@ const AbsoluteLigne = () => {
               rel="noopener noreferrer"
             >
               {" "}
-              Voir le site
+              Voir le repo
             </a>
           </div>
         </div>
@@ -99,8 +100,9 @@ const AbsoluteLigne = () => {
           <div className="text">
             <h3>Oh myfood</h3>
             <p>
-              Groupomania est un réseau social qui permet de partager des
-              informations et des événements entre les membres du groupe.
+              Oh-myfood un site proposant le menu de 4 grands restaurants
+              parisiens le site permet la réservation en ligne et la composition
+              de menus.
             </p>
             <a
               href="https://groupomania.herokuapp.com/"
@@ -108,22 +110,24 @@ const AbsoluteLigne = () => {
               rel="noopener noreferrer"
             >
               {" "}
-              Voir le site
+              Voir le repo
             </a>
           </div>
         </div>
       </div>
 
       <div className="boule6 boule">
-      <i className="fab fa-html5"></i>
-      <i className="fa-brands fa-css3"></i>
+        <i className="fab fa-html5"></i>
+        <i className="fa-brands fa-css3"></i>
 
         <div className="bloc6 bloc">
           <div className="text">
             <h3>Bookie</h3>
             <p>
-              Groupomania est un réseau social qui permet de partager des
-              informations et des événements entre les membres du groupe.
+              Le site permet aux usagers de trouver des hébergements et des
+              activités dans la ville de leur choix. Les hébergements peuvent
+              également être filtrés par thématique, par exemple leur budget ou
+              leur ambiance.
             </p>
             <a
               href="https://groupomania.herokuapp.com/"
@@ -131,13 +135,11 @@ const AbsoluteLigne = () => {
               rel="noopener noreferrer"
             >
               {" "}
-              Voir le site
+              Voir le repo
             </a>
           </div>
         </div>
       </div>
-
-      
     </div>
   );
 };

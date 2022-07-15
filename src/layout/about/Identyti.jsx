@@ -15,7 +15,7 @@ const Identyti = () => {
         </div>
         <div className="first-li-container">
           <li>
-            Ville : <span>Nancy</span>
+            Ville : <span>Nancy, France</span>
           </li>
           <br />
           <li>

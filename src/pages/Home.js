@@ -31,6 +31,10 @@ const Home = () => {
             Voir mon CV
           </button>
         </main>
+
+        {/* <div className="video">
+        <i className="fa-solid fa-video"></i>
+        </div> */}
       </div>
     </div>
   );
