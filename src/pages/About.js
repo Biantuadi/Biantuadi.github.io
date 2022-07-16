@@ -14,7 +14,7 @@ const About = () => {
       <div className="about-content">
         <div className="img-acrd floatant">
           <img
-            src="https://scontent-cdg2-1.xx.fbcdn.net/v/t39.1997-6/274970134_341091367959442_2432756502550495876_n.png?stp=dst-png_s526x395&_nc_cat=111&ccb=1-7&_nc_sid=ac3552&_nc_ohc=0ZRXikat6dkAX-S3wE5&_nc_ht=scontent-cdg2-1.xx&oh=00_AT-Ouqil2IicZFcwgv5zPoxtWtOgMK2BYSVocJZEf51YYQ&oe=62D0631E"
+            src="https://scontent-cdg2-1.xx.fbcdn.net/v/t39.1997-6/293047593_402145791891421_513477303862981928_n.png?stp=dst-png_s526x395&_nc_cat=111&ccb=1-7&_nc_sid=ac3552&_nc_ohc=5VO0PRU0dkkAX8dVYlp&tn=1yQH8_KIBWII-jD6&_nc_ht=scontent-cdg2-1.xx&oh=00_AT_mCmC4nVwA6rAXr3wzo2lce35EMR0zCggVYoYXHtIIYw&oe=62D7BA0C"
             alt="Avatar"
           />
         </div>
