@@ -11,9 +11,29 @@
   <loc>https://biantuadi.github.io/</loc>
   <lastmod>2022-07-12T22:07:53+00:00</lastmod>
   <changefreq>monthly</changefreq>
-  <priority>1</priority>
+  <priority>0.9</priority>
 </url>
 
+<url>
+  <loc>https://biantuadi.github.io/about</loc>
+  <lastmod>2022-07-12T22:07:53+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+
+<url>
+  <loc>https://biantuadi.github.io/contact</loc>
+  <lastmod>2022-07-12T22:07:53+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+
+<url>
+  <loc>https://biantuadi.github.io/portfolio</loc>
+  <lastmod>2022-07-12T22:07:53+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1</priority>
+</url>
 
 
 
