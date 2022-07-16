@@ -10,7 +10,7 @@ if (br) {
 
 }
   return (
-    <div className="portfolio-container">
+    <div className="portfolio-container" id="portfolio">
       <Header />
 
       <br />
