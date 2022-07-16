@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5c370744.css",
-    "main.js": "/static/js/main.6d0e42fb.js",
-    "static/media/build.mp4": "/static/media/build.b6bc7c51c6175e8f20bf.mp4",
+    "main.css": "/static/css/main.40be8b29.css",
+    "main.js": "/static/js/main.72031d78.js",
     "static/media/p5_openclassroom_kanap.png": "/static/media/p5_openclassroom_kanap.901f9d6513de21682efa.png",
     "static/media/groupomania.png": "/static/media/groupomania.58e39f18ebc4d9422e01.png",
     "static/media/booki-p2-openclassroom.png": "/static/media/booki-p2-openclassroom.2147876b69e0f34eefd6.png",
@@ -22,11 +21,11 @@
     "index.html": "/index.html",
     "static/media/Vector.svg": "/static/media/Vector.aff7747f3929ce842ffb.svg",
     "static/media/Vector Contact.svg": "/static/media/Vector Contact.0f09b16c1e4089c1a209f7b856547288.svg",
-    "main.5c370744.css.map": "/static/css/main.5c370744.css.map",
-    "main.6d0e42fb.js.map": "/static/js/main.6d0e42fb.js.map"
+    "main.40be8b29.css.map": "/static/css/main.40be8b29.css.map",
+    "main.72031d78.js.map": "/static/js/main.72031d78.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c370744.css",
-    "static/js/main.6d0e42fb.js"
+    "static/css/main.40be8b29.css",
+    "static/js/main.72031d78.js"
   ]
 }
