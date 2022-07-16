@@ -1,16 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.5f0ed7d6.css",
-    "main.js": "/static/js/main.09ea61e4.js",
+    "main.css": "/static/css/main.5c370744.css",
+    "main.js": "/static/js/main.143e3ae2.js",
     "static/media/build.mp4": "/static/media/build.b6bc7c51c6175e8f20bf.mp4",
-    "static/media/CV.pdf": "/static/media/CV.216e962494e6c4b1ddb5.pdf",
+    "static/media/p5_openclassroom_kanap.png": "/static/media/p5_openclassroom_kanap.901f9d6513de21682efa.png",
+    "static/media/groupomania.png": "/static/media/groupomania.58e39f18ebc4d9422e01.png",
+    "static/media/booki-p2-openclassroom.png": "/static/media/booki-p2-openclassroom.2147876b69e0f34eefd6.png",
+    "static/media/Cv_Dev3.pdf": "/static/media/Cv_Dev3.99349945c518f52abd9f.pdf",
+    "static/media/react.png": "/static/media/react.8a6fc0a24a800d1e0f4a.png",
+    "static/media/Vs code.png": "/static/media/Vs code.e66400756ccbdbfc0b31.png",
+    "static/media/la-chouette-agence-p4-openclassroom.png": "/static/media/la-chouette-agence-p4-openclassroom.d40d07532c6f35a2de59.png",
+    "static/media/p6_openclassroom_piquante.jpg": "/static/media/p6_openclassroom_piquante.6eeffb8aa8bc6a21d7dd.jpg",
+    "static/media/Node.js.svg.png": "/static/media/Node.js.svg.c2e22c634a7336cbe298.png",
+    "static/media/CSS3_logo.svg.png": "/static/media/CSS3_logo.svg.84de5dab5fab27f4161c.png",
+    "static/media/upc.png": "/static/media/upc.3a24f430a67a82720687.png",
+    "static/media/sass.png": "/static/media/sass.051888ab516950ed48cb.png",
+    "static/media/javascript.png": "/static/media/javascript.edc1b02f51f37057cb88.png",
+    "static/media/html.png": "/static/media/html.ff3cf75e3b7cbb4ea77c.png",
+    "static/media/tbg.jfif": "/static/media/tbg.eb92debecd95a29cb1ec.jfif",
+    "static/media/ufc.jfif": "/static/media/ufc.e36edc5183fb96b622f6.jfif",
     "index.html": "/index.html",
-    "static/media/Vector.svg": "/static/media/Vector.025cbcd7afc0c160bd6a.svg",
-    "main.5f0ed7d6.css.map": "/static/css/main.5f0ed7d6.css.map",
-    "main.09ea61e4.js.map": "/static/js/main.09ea61e4.js.map"
+    "static/media/Vector.svg": "/static/media/Vector.aff7747f3929ce842ffb.svg",
+    "static/media/Vector Contact.svg": "/static/media/Vector Contact.8314f80a50a40789035249d824144d98.svg",
+    "main.5c370744.css.map": "/static/css/main.5c370744.css.map",
+    "main.143e3ae2.js.map": "/static/js/main.143e3ae2.js.map"
   },
   "entrypoints": [
-    "static/css/main.5f0ed7d6.css",
-    "static/js/main.09ea61e4.js"
+    "static/css/main.5c370744.css",
+    "static/js/main.143e3ae2.js"
   ]
 }

@@ -1,3 +1,5 @@
 # https://biantuadi.github.io/robots.txt
 User-agent: *
-Disallow:
+Disallow: https://biantuadi.github.io/static/media/build.b6bc7c51c6175e8f20bf.mp4
+Disallow: https://biantuadi.github.io/static/media/CV.216e962494e6c4b1ddb5.pdf
+Sitemap: https://biantuadi.github.io/sitemap.xml
