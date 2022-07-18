@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9390f30e.css",
-    "main.js": "/static/js/main.371a0d8c.js",
+    "main.css": "/static/css/main.3d8fbcd0.css",
+    "main.js": "/static/js/main.94f825f4.js",
     "static/media/p5_openclassroom_kanap.png": "/static/media/p5_openclassroom_kanap.901f9d6513de21682efa.png",
     "static/media/groupomania.png": "/static/media/groupomania.58e39f18ebc4d9422e01.png",
     "static/media/booki-p2-openclassroom.png": "/static/media/booki-p2-openclassroom.2147876b69e0f34eefd6.png",
@@ -21,11 +21,11 @@
     "index.html": "/index.html",
     "static/media/Vector.svg": "/static/media/Vector.aff7747f3929ce842ffb.svg",
     "static/media/Vector Contact.svg": "/static/media/Vector Contact.0f09b16c1e4089c1a209f7b856547288.svg",
-    "main.9390f30e.css.map": "/static/css/main.9390f30e.css.map",
-    "main.371a0d8c.js.map": "/static/js/main.371a0d8c.js.map"
+    "main.3d8fbcd0.css.map": "/static/css/main.3d8fbcd0.css.map",
+    "main.94f825f4.js.map": "/static/js/main.94f825f4.js.map"
   },
   "entrypoints": [
-    "static/css/main.9390f30e.css",
-    "static/js/main.371a0d8c.js"
+    "static/css/main.3d8fbcd0.css",
+    "static/js/main.94f825f4.js"
   ]
 }
