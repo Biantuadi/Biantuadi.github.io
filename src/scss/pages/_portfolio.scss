@@ -14,7 +14,7 @@
 
 
         @media (max-width: 768px) {
-            margin-top: 63em;
+            margin-top: 70em;
         }
     }
 
@@ -89,6 +89,7 @@
             position: relative;
             width: 100%;
             height: 100%;
+            background-color: transparent;
 
             i {
                 display: none;
@@ -115,7 +116,7 @@
         top: 425px;
 
         @media(max-width: 768px) {
-            top: 0;
+            top: 30px;
         }
 
 
@@ -130,7 +131,7 @@
         top: 795px;
 
         @media(max-width: 768px) {
-            top: 0;
+            top: 60px;
         }
 
 
@@ -145,7 +146,7 @@
         top: 72.5em;
 
         @media(max-width: 768px) {
-            top: 0;
+            top: 90px;
         }
 
         i {
@@ -157,7 +158,7 @@
         top: 95em;
 
         @media(max-width: 768px) {
-            top: 0;
+            top: 120px;
         }
 
 
@@ -171,7 +172,7 @@
         top: 118em;
 
         @media(max-width: 768px) {
-            top: 0;
+            top: 150px;
         }
 
 
