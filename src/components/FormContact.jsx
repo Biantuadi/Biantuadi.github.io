@@ -9,7 +9,7 @@ const FormContact = () => {
   const [message, setMessage] = React.useState("");
 
   const emailError = useRef(null);
-  const nameError = useRef(null);
+  // const nameError = useRef(null);
   const messageError = useRef(null);
 
   const form = useRef();

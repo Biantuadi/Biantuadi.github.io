@@ -14,14 +14,6 @@ const AbsoluteLigne = () => {
               Groupomania est un réseau social qui permet de partager des
               informations et des événements entre les membres du groupe.
             </p>
-            <a
-              href="https://groupomania.herokuapp.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {" "}
-              Voir le repo
-            </a>
           </div>
         </div>
       </div>
@@ -37,14 +29,6 @@ const AbsoluteLigne = () => {
               recettes sont gardées secrètes. Pour tirer parti de son succès et
               générer davantage de buzz.
             </p>
-            <a
-              href="https://groupomania.herokuapp.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {" "}
-              Voir le repo
-            </a>
           </div>
         </div>
       </div>
@@ -59,14 +43,6 @@ const AbsoluteLigne = () => {
               Kanap une marque de canapés qui vend ses produits depuis sa
               boutique exclusivement.
             </p>
-            <a
-              href="https://groupomania.herokuapp.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {" "}
-              Voir le repo
-            </a>
           </div>
         </div>
       </div>
@@ -81,14 +57,6 @@ const AbsoluteLigne = () => {
               Groupomania est un réseau social qui permet de partager des
               informations et des événements entre les membres du groupe.
             </p>
-            <a
-              href="https://groupomania.herokuapp.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {" "}
-              Voir le repo
-            </a>
           </div>
         </div>
       </div>
@@ -104,14 +72,6 @@ const AbsoluteLigne = () => {
               parisiens le site permet la réservation en ligne et la composition
               de menus.
             </p>
-            <a
-              href="https://groupomania.herokuapp.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {" "}
-              Voir le repo
-            </a>
           </div>
         </div>
       </div>
@@ -129,14 +89,6 @@ const AbsoluteLigne = () => {
               également être filtrés par thématique, par exemple leur budget ou
               leur ambiance.
             </p>
-            <a
-              href="https://groupomania.herokuapp.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {" "}
-              Voir le repo
-            </a>
           </div>
         </div>
       </div>

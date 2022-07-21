@@ -18,14 +18,6 @@ if (br) {
 
       <div className="mesProjets">
         <h1>Mes projets</h1>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat,
-          ipsam odio! Officia maiores fugiat porro quibusdam commodi. Molestiae,
-          architecto. Cupiditate sit eligendi aperiam numquam sunt quo voluptas
-          quasi quam perspiciatis reiciendis laboriosam culpa similique, labore
-          corrupti facilis ea. Corporis placeat error veritatis dolorum dicta
-          odit dolorem dolore sint voluptatum architecto.
-        </p>
       </div>
       <br />
       <br />

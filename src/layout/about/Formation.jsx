@@ -136,12 +136,12 @@ const Formation = () => {
           </div>
 
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto
-            quas, vero iure placeat necessitatibus ad animi dolore excepturi aut
-            et nesciunt est eveniet esse deleniti maxime magni ipsum. Molestias,
-            sunt. In labore cum optio laudantium nesciunt soluta magnam aliquid
-            suscipit a! Nulla facere temporibus in! Exercitationem aliquam
-            ducimus ea neque!
+            • Décrypter le potentiel et les différents leviers offerts par les
+            réseaux sociaux <br />
+            • Identifier ses cibles et investir les bons réseaux sociaux pour
+            gagner en visibilité <br />
+            • Se fixer des objectifs et mobiliser les ressources nécessaires
+            pour le déploiement de cette stratégie social media <br />
           </p>
         </div>
 
@@ -151,15 +151,14 @@ const Formation = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-
-          <h3>
-            Bac Mathématiques | <span>CS MAFUTA</span> <em>/ juillet 2019</em>{" "}
-          </h3>
+            <h3>
+              Bac Mathématiques | <span>CS MAFUTA</span> <em>/ juillet 2019</em>{" "}
+            </h3>
           </a>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore
-            mollitia quo pariatur ad quod, ipsum distinctio error quos culpa
-            eligendi. Ipsum nisi delectus soluta ex.
+            Mathématiques appliquée, Mathématiques générale, Géométrie, Algèbre,
+            Analyse, Statistique, Probabilité, dessin scientifique... <br />
+            obtention du Baccalauréat avec de 69% de moyenne.
           </p>
         </div>
       </div>
