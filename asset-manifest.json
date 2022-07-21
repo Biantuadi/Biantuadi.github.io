@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.3d8fbcd0.css",
-    "main.js": "/static/js/main.94f825f4.js",
+    "main.js": "/static/js/main.1c19ed3f.js",
     "static/media/p5_openclassroom_kanap.png": "/static/media/p5_openclassroom_kanap.901f9d6513de21682efa.png",
     "static/media/groupomania.png": "/static/media/groupomania.58e39f18ebc4d9422e01.png",
     "static/media/booki-p2-openclassroom.png": "/static/media/booki-p2-openclassroom.2147876b69e0f34eefd6.png",
-    "static/media/Cv_Dev3.pdf": "/static/media/Cv_Dev3.99349945c518f52abd9f.pdf",
     "static/media/react.png": "/static/media/react.8a6fc0a24a800d1e0f4a.png",
+    "static/media/Cv_Dev3.pdf": "/static/media/Cv_Dev3.7d73d74d4f3ca6687746.pdf",
     "static/media/Vs code.png": "/static/media/Vs code.e66400756ccbdbfc0b31.png",
     "static/media/la-chouette-agence-p4-openclassroom.png": "/static/media/la-chouette-agence-p4-openclassroom.d40d07532c6f35a2de59.png",
     "static/media/p6_openclassroom_piquante.jpg": "/static/media/p6_openclassroom_piquante.6eeffb8aa8bc6a21d7dd.jpg",
@@ -22,10 +22,10 @@
     "static/media/Vector.svg": "/static/media/Vector.aff7747f3929ce842ffb.svg",
     "static/media/Vector Contact.svg": "/static/media/Vector Contact.0f09b16c1e4089c1a209f7b856547288.svg",
     "main.3d8fbcd0.css.map": "/static/css/main.3d8fbcd0.css.map",
-    "main.94f825f4.js.map": "/static/js/main.94f825f4.js.map"
+    "main.1c19ed3f.js.map": "/static/js/main.1c19ed3f.js.map"
   },
   "entrypoints": [
     "static/css/main.3d8fbcd0.css",
-    "static/js/main.94f825f4.js"
+    "static/js/main.1c19ed3f.js"
   ]
 }
