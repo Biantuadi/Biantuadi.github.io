@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import cvPdf from "../assets/docs/Cv_Dev3.pdf";
 import { useTypewriter } from "react-simple-typewriter";
 import SocialMedia from "../components/Social.Media";
+import img from "../assets/img/Vector.svg";
 
 const Home = () => {
   const { text } = useTypewriter({
@@ -14,10 +15,14 @@ const Home = () => {
     <div className="container-home-page">
       <Header />
 
+
       <div className="main-center-home">
+      <div className="home-img">
+        <img src={img} alt="" />
+      </div>
         <SocialMedia />
 
-        <main className="main-home">
+        <main className="main-home"> 
           <span className="span-salut">Salut ! Moi c'est</span>
           <h1 className="beniBiantuadi">
             Beni<span>.</span>Biantuadi

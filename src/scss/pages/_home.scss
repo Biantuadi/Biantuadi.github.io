@@ -71,6 +71,7 @@
 
         }
 
+
         &:hover {
             color: #fff;
 
@@ -82,18 +83,27 @@
     }
 
     .main-center-home {
-        background: url("../../assets/img/Vector.svg");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
+
         height: 100%;
-        width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
         position: relative;
         overflow: hidden;
         gap: 120px;
+
+        .home-img {
+            position: absolute;
+            z-index: -1;
+            height: 100%;
+            width: 100%;
+
+            img {
+                object-fit: cover;
+                height: 100%;
+                width: 100%;
+            }
+        }
 
         @media screen and (max-width: 768px) {
             gap: 50px;
