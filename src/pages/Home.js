@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
-import cvPdf from "../assets/docs/Cv_Dev3.pdf";
+import cvPdf from "../assets/docs/Cv6.pdf";
 import { useTypewriter } from "react-simple-typewriter";
 import SocialMedia from "../components/Social.Media";
 import img from "../assets/img/Vector.svg";

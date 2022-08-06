@@ -9,6 +9,8 @@ import sass from "../../assets/logosProgramation/sass.png";
 import git from "../../assets/logosProgramation/git.png";
 import github from "../../assets/logosProgramation/github.png";
 import vsCode from "../../assets/logosProgramation/Vs code.png";
+import mySql from "../../assets/logosProgramation/mysql.png";
+import gitlab from "../../assets/logosProgramation/gitlab.png"; 
 
 const LogoProgramation = () => {
   return (
@@ -40,6 +42,10 @@ const LogoProgramation = () => {
       </li>
       <li>
         {" "}
+        <img src={mySql} alt="logo mysql" />
+      </li>
+      <li>
+        {" "}
         <img src={sass} alt="logo sass" />
       </li>
       <li>
@@ -54,6 +60,10 @@ const LogoProgramation = () => {
         {" "}
         <img src={vsCode} alt="logo vs code" />
       </li>
+      <li>
+        {" "}
+        <img src={gitlab} alt="logo gitlab" />
+      </li> 
     </>
   );
 };
