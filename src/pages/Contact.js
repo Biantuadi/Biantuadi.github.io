@@ -1,21 +1,19 @@
 import React from "react";
-import vectorContact from "../assets/img/Vector Contact.svg";
+// import vectorContact from "../assets/img/Vector Contact.svg";
 import FormContact from "../components/FormContact";
-import Navigation from "../components/Navigation";
+import Header from '../components/Header'
 
 const Contact = () => {
   return (
     <div className="Container-contact" id="contact">
-      <header>
-        <Navigation />
-      </header>
+     <Header />
 
       <FormContact />
-      <img
+      {/* <img
         src={vectorContact}
         alt="vector-contact"
         className="vector-contact"
-      />
+      /> */}
     </div>
   );
 };

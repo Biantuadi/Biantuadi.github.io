@@ -4,12 +4,10 @@ import { useEffect } from "react";
 import { NavLink } from "react-router-dom";
 
 const FormContact = () => {
-  const [name, setName] = React.useState("");
   const [email, setEmail] = React.useState("");
   const [message, setMessage] = React.useState("");
 
   const emailError = useRef(null);
-  // const nameError = useRef(null);
   const messageError = useRef(null);
 
   const form = useRef();
@@ -19,7 +17,7 @@ const FormContact = () => {
   const [hasSubmitted, setHasSubmitted] = React.useState(false);
 
   useEffect(() => {
-    if (name === "" || email === "" || message === "") {
+    if (email === "" || message === "") {
       btn.current.disabled = true;
       btn.current.classList.add("disabled");
     } else {
@@ -30,7 +28,7 @@ const FormContact = () => {
       messageError.current.classList.remove("messageError");
       messageError.current.classList.add("error");
     }
-  }, [name, email, message]);
+  }, [ email, message]);
 
   const ContactMe = (e) => {
     e.preventDefault();
@@ -54,7 +52,6 @@ const FormContact = () => {
           setHasSubmitted(true);
           form.current.classList.add("blur");
           btn.current.innerHTML = "Envoyé";
-          setName("");
           setEmail("");
           setMessage("");
           console.log(result.text);
@@ -74,19 +71,6 @@ const FormContact = () => {
           <h2>Contact</h2>
         </div>
         <br />
-        <br />
-
-        <div className="Form-contact__input-name">
-          <input
-            type="text"
-            name="name"
-            id="name"
-            required
-            value={name}
-            placeholder="Votre nom"
-            onChange={(e) => setName(e.target.value)}
-          />
-        </div>
         <br />
 
         <div className="Form-contact__input-email">
