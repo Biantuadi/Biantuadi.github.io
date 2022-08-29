@@ -27,7 +27,7 @@ const Footer = () => {
           </a>
         </span>
 
-        <span>
+        <span className="hidden">
           <a
             href="https://www.canalplus.com/"
             target="_blank"

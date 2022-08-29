@@ -1,8 +1,10 @@
 .Container-contact {
     height: 100vh;
     width: 100%;
-    // background-color: darken($color: #04245c, $amount: 5);
     position: relative;
+
+    display: flex;
+    flex-direction: column;
 
     // header {
     //     background-color: transparent;
@@ -41,6 +43,28 @@
         bottom: 0;
     }
 
+    footer {
+        flex: .3;
+
+        @media (min-width: 200px) and (max-width: 400px) {
+            padding-top: 45px;
+
+            .hidden {
+                visibility: hidden;
+            }
+
+
+        }
+    }
+
+}
+
+.container-form_contact {
+    width: 100%;
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 form.Form-contact {
@@ -50,13 +74,9 @@ form.Form-contact {
         color: #04245c
     }
 
-    width: 22em;
+    width: 21em;
     background: #fff;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     padding: 2em;
     border-radius: 50px;
     display: flex;
@@ -65,7 +85,7 @@ form.Form-contact {
     align-items: center;
 
     @media (min-width: 200px) and (max-width: 400px) {
-        width: calc(100% - 1em);
+        width: calc(100% - 3em);
 
 
     }
@@ -192,13 +212,15 @@ form.Form-contact {
         transition: all 0.2s ease-out;
         background-color: white;
 
-        a{
+        a {
             color: #04245cd2;
         }
+
         &:hover {
             background-color: #04245cd2;
             color: #fff;
-            a{
+
+            a {
                 color: #fff;
             }
         }

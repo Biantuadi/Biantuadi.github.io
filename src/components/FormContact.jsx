@@ -66,6 +66,7 @@ const FormContact = () => {
 
   return (
     <>
+      <div className="container-form_contact">
       <form ref={form} className="Form-contact" onSubmit={ContactMe}>
         <div className="Form-contact__title">
           <h2>Contact</h2>
@@ -120,6 +121,7 @@ const FormContact = () => {
           </div>
         </>
       )}
+      </div>
     </>
   );
 };

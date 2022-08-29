@@ -25,14 +25,14 @@ const Navigation = () => {
           Portfolio
         </NavLink>
       </li>
-      {/* <li>
+      <li>
         <NavLink
           to="/contact"
           className={(nav) => (nav.isActive ? "active" : "")}
         >
           Contact
         </NavLink>
-      </li> */}
+      </li>
     </ul>
   );
 };
