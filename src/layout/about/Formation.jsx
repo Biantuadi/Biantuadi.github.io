@@ -16,7 +16,7 @@ const Formation = () => {
           <div className="title-img">
             <a href="http://Etna.io" target="_blank" rel="noopener noreferrer">
               <h3>
-                Responsable de projet web et mobile | <span>ETNA Bac+3</span>{" "}
+                Responsable de projet SI | <span>ETNA Bac+3</span>{" "}
                 <em>/ Octobre 2022</em>
               </h3>
             </a>

@@ -1,13 +1,13 @@
 import React from "react";
 import Header from "../components/Header";
-import cvPdf from "../assets/docs/Cv6.pdf";
+import cvPdf from "../assets/docs/Cv_9.pdf";
 import { useTypewriter } from "react-simple-typewriter";
 import SocialMedia from "../components/Social.Media";
 import img from "../assets/img/Vector.svg";
 
 const Home = () => {
   const { text } = useTypewriter({
-    words: ["Passionné", "Créatif", "Curieux", "Dévoué", "Persévérant"],
+    words: ["Créatif", "Curieux", "Dévoué"],
     loop: 0, // Infinit
   });
 
@@ -25,7 +25,7 @@ const Home = () => {
         <main className="main-home"> 
           <span className="span-salut">Salut ! Moi c'est</span>
           <h1 className="beniBiantuadi">
-            Beni<span>.</span>Biantuadi
+            Kevin<span>.</span>Biantuadi
           </h1>
           <div className="footer-identity">
             <span>Je suis</span>

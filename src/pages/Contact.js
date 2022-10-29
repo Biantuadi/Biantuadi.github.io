@@ -10,11 +10,6 @@ const Contact = () => {
      <Header />
 
       <FormContact />
-      {/* <img
-        src={vectorContact}
-        alt="vector-contact"
-        className="vector-contact"
-      /> */}
 
       <Footer />
     </div>

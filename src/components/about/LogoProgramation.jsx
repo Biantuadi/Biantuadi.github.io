@@ -11,6 +11,9 @@ import github from "../../assets/logosProgramation/github.png";
 import vsCode from "../../assets/logosProgramation/Vs code.png";
 import mySql from "../../assets/logosProgramation/mysql.png";
 import gitlab from "../../assets/logosProgramation/gitlab.png"; 
+import c from "../../assets/logosProgramation/c.webp";
+import typeScript from "../../assets/logosProgramation/TypeScript.webp";
+import bash from "../../assets/logosProgramation/bash.png";
 
 const LogoProgramation = () => {
   return (
@@ -64,6 +67,18 @@ const LogoProgramation = () => {
         {" "}
         <img src={gitlab} alt="logo gitlab" />
       </li> 
+      <li>
+        {" "}
+        <img src={c} alt="logo c" />
+      </li>
+      <li>
+        {" "}
+        <img src={typeScript} alt="logo typescript" />
+      </li>
+      <li>
+        {" "}
+        <img src={bash} alt="logo bash" />
+      </li>
     </>
   );
 };
